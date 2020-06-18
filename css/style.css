@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Oswald:wght@200;700&family=Tajawal&display=swap');
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Tajawal', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr{
+    height: 10px;
+    background: url(../assets/hr-img.png);
+    border: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+header {
+    clear: both;
+    height: 100px;
+    padding: 30px 0 20px 0;
+}
+
+header article {
+    height: 65px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 -1px;
+}
+
+header ul li:nth-child(6) {
+    margin-right: 5px;
+}
+
+.logo-container img {
+    float: left;
+}
+.logo-container div {
+    margin-left: 50px;
+}
+
+.logo-container div p:first-child {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 24px;
+    color: #000;
+}
+
+.logo-container div p {
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4d3e3e;
+}
+
+main h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+main article {
+    margin-top: 30px;
+    min-height: 70px;
+}
+
+main article:first-child {
+    margin-top: 0;
+}
+
+main article:first-child p {
+    font-size: 13px;
+    color: #888;
+}
+
+main p {
+    margin: 0;
+}
+
+
+.print-page-class {
+    position: relative;
+    top: 50px;
+}
+
+.print-page-class a {
+    text-decoration: none;
+    color: #888888;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+}
+
+.print-page-class a p {
+    display: inline;
+}
+
+.main-article-image {
+    width: 100%;
+}
+
+.recipe-information p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Oswald', 'sans-seirf';
+}
+
+.recipe {
+    height: 180px;
+    background: url(../assets/list-bg.png) 100%;
+    background-position: left;
+    padding: 30px 80px 30px 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.recipe ul {
+    margin: 0;
+}
+.recipe ul li {
+    line-height: 32px;
+    list-style-type: none;
+    color: #6c6753;
+}
+
+.recipe .float-right li:nth-child(2), 
+.recipe .float-right li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+main hr {
+    margin-top: 40px;
+}
+
+.share-recipe {
+    height: 150px;
+}
+
+.share-recipe>.float-left {
+    width: 80%;
+}
+
+.share-recipe img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.share-recipe div {
+    margin-left: 90px;
+    color: #565457;
+}
+
+.share-recipe .username {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222831;
+    line-height: 32px;
+}
+
+.share-recipe .float-right {
+}
+
+.share-recipe a {
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: 20px 30px 15px 30px;
+    background: #bb7158;
+}
+
+
+footer {
+    border-top: 1px solid #f4f6ff;
+    text-align: center;
+    height: 120px;
+}
+
+footer p {
+    margin: 0;
+    color: #888888;
+    font-family: 'Tajawal', sans-serif;
+
+}
+footer img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+    margin-bottom: 15px;
+}
+
+input[type = "checkbox"]:checked+label {
+    text-decoration: line-through;
+}

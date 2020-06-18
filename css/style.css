@@ -12,7 +12,7 @@ a {
 
 hr{
     height: 10px;
-    background: url(../assets/hr-img.png);
+    background: url(../img/hr-img.png);
     border: 0;
 }
 
@@ -118,7 +118,7 @@ main p {
 
 .recipe {
     height: 180px;
-    background: url(../assets/list-bg.png) 100%;
+    background: url(../img/list-bg.png) 100%;
     background-position: left;
     padding: 30px 80px 30px 80px;
     background-repeat: no-repeat;

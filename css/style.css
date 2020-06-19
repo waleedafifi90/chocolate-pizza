@@ -114,6 +114,7 @@ main p {
     font-size: 18px;
     color: #888888;
     font-family: 'Oswald', 'sans-seirf';
+    text-indent: 40px;
 }
 
 .recipe {

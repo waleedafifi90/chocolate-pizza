@@ -58,7 +58,7 @@ header ul li:nth-child(6) {
 }
 
 .logo-container div p:first-child {
-/*     font-family: 'Gochi Hand', cursive; */
+    font-family: 'Gochi Hand', cursive;
     font-size: 24px;
     color: #000;
 }
@@ -71,7 +71,7 @@ header ul li:nth-child(6) {
 }
 
 main h1 {
-/*     font-family: 'Oswald', sans-serif; */
+    font-family: 'Oswald', sans-serif;
     font-size: 36px;
     font-weight: 700;
     margin: 0px;
@@ -104,7 +104,7 @@ main p {
 .print-page-class a {
     text-decoration: none;
     color: #888888;
-/*     font-family: 'Oswald', sans-serif; */
+    font-family: 'Oswald', sans-serif;
     font-size: 13px;
 }
 

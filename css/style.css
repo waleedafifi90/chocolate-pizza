@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Oswald:wght@200;700&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+
 
 body {
     width: 960px;
     margin: 0 auto;
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Yellowtail', cursive;
 }
 
 a {
@@ -56,7 +58,7 @@ header ul li:nth-child(6) {
 }
 
 .logo-container div p:first-child {
-    font-family: 'Gochi Hand', cursive;
+/*     font-family: 'Gochi Hand', cursive; */
     font-size: 24px;
     color: #000;
 }
@@ -69,7 +71,7 @@ header ul li:nth-child(6) {
 }
 
 main h1 {
-    font-family: 'Oswald', sans-serif;
+/*     font-family: 'Oswald', sans-serif; */
     font-size: 36px;
     font-weight: 700;
     margin: 0px;
@@ -102,7 +104,7 @@ main p {
 .print-page-class a {
     text-decoration: none;
     color: #888888;
-    font-family: 'Oswald', sans-serif;
+/*     font-family: 'Oswald', sans-serif; */
     font-size: 13px;
 }
 
@@ -209,7 +211,7 @@ footer {
 footer p {
     margin: 0;
     color: #888888;
-    font-family: 'Tajawal', sans-serif;
+/*     font-family: 'Tajawal', sans-serif; */
 
 }
 footer img {
